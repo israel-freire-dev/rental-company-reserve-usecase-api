@@ -33,15 +33,27 @@ INSERT INTO rentalcompany.tb_vehicle (
 )
 VALUES
 
-    ('44444444-aaaa-bbbb-cccc-000000000004', 'Volkswagen Polo', 'HATCH', 2024, 4, 'FLEX', 'BRA2E24', 'Vermelho', '1200', '44455566677', '9BWAAA444RT111222', 'RESERVED', '005473-4', 15000, 9500000, '/images/mock/hatch_red.jpg', CURRENT_TIMESTAMP, NULL),
+    ('44444444-aaaa-bbbb-cccc-000000000004', 'Volkswagen Polo', 'HATCH', 2024, 4, 'FLEX', 'BRA2E24', 'Azul', '1200',
+     '44455566677', '9BWAAA444RT111222', 'RESERVED', '005473-4', 15000, 9500000,
+      'https://w7.pngwing.com/pngs/186/931/png-transparent-car-volkswagen-polo-1-mpi-48kw-trendline-bmt-volkswagen-polo-hatchback-volkswagen-polo-trendline-vw-polo-compact-car-sedan-car.png',
+       CURRENT_TIMESTAMP, NULL),
 
 
-    ('55555555-aaaa-bbbb-cccc-000000000005', 'Honda Civic', 'SEDAN', 2023, 4, 'GASOLINA', 'BRA3C25', 'Preto', '25000', '88899900011', '9BDBBB555VT333444', 'AVAILABLE', '014112-0', 28000, 17000000, '/images/mock/sedan_black.jpg', CURRENT_TIMESTAMP, NULL),
+    ('55555555-aaaa-bbbb-cccc-000000000005', 'Honda Civic', 'SEDAN', 2024, 4, 'GASOLINA', 'BRA3C25', 'Preto', '25000',
+     '88899900011', '9BDBBB555VT333444', 'AVAILABLE', '014112-0', 28000, 17000000,
+     'https://vehicle-images.dealerinspire.com/stock-images/chrome/6027612b9cfab3538a07efdb24aeb0c3.png',
+     CURRENT_TIMESTAMP, NULL),
 
 
-    ('66666666-aaaa-bbbb-cccc-000000000006', 'Chevrolet Tracker', 'SUV', 2022, 4, 'DIESEL', 'BRA4D26', 'Azul', '45000', '22233344455', '9BWCCC666ST555666', 'UNDER_MAINTENANCE', '004523-2', 35000, 16000000, '/images/mock/suv_blue.jpg', CURRENT_TIMESTAMP, NULL),
+    ('66666666-aaaa-bbbb-cccc-000000000006', 'Chevrolet Tracker', 'SUV', 2022, 4, 'DIESEL', 'BRA4D26', 'Azul', '45000',
+     '22233344455', '9BWCCC666ST555666', 'UNDER_MAINTENANCE', '004523-2', 35000, 16000000,
+     'https://production.autoforce.com/uploads/version/profile_image/8874/comprar-at-1-0-turbo-pacote-pdi_e534c64f64.png',
+     CURRENT_TIMESTAMP, NULL),
 
-    ('10101010-ffff-eeee-dddd-000000000010', 'Fiat Pulse', 'SUV', 2024, 4, 'FLEX', 'HAPPY01', 'Cinza', '500', '33344455566', '9BWDDD777ST888999', 'AVAILABLE', '001527-3', 20000, 13000000, '/images/mock/suv_gray.jpg', CURRENT_TIMESTAMP, NULL);
+    ('10101010-ffff-eeee-dddd-000000000010', 'Fiat Pulse', 'SUV', 2024, 4, 'FLEX', 'HAPPY01', 'Prata', '500', '33344455566',
+     '9BWDDD777ST888999', 'AVAILABLE', '001527-3', 20000, 13000000,
+     'https://www.webmotors.com.br/tabela-fipe/_next/image?url=https%3A%2F%2Fwww.webmotors.com.br%2Fimagens%2Fprod%2F380017%2FFIAT_PULSE_1.0_TURBO_200_FLEX_CVT_38001709354243296.webp&w=1265&q=75',
+     CURRENT_TIMESTAMP, NULL);
 
 
 

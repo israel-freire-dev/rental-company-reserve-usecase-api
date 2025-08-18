@@ -105,8 +105,8 @@ data class Vehicle(
     @Column(name = "fipe_value_in_cents")
     var fipeValueInCents: Int? = null,
 
-    @Column(name = "image_url", length = 255)
-    @field:Size(max = 255, message = "A URL da imagem não pode exceder 255 caracteres.")
+    @Column(name = "image_url", length = 1000)
+    @field:Size(max = 1000, message = "A URL da imagem não pode exceder 255 caracteres.")
     var imageUrl: String? = null,
 
     @NotBlank(message = "O Chassi não pode ser vazio.")

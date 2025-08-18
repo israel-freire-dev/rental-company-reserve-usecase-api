@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS rentalcompany.tb_vehicle (
     fipe_code VARCHAR(20),
     daily_rate_in_cents INT,
     fipe_value_in_cents INT,
-    image_url VARCHAR(255),
+    image_url VARCHAR(1000),
     creation_date TIMESTAMP NOT NULL,
     update_date TIMESTAMP
 );
