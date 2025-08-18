@@ -8,8 +8,8 @@ spring:
   datasource:
     url: jdbc:h2:mem:db-rental-company
     driverClassName: org.h2.Driver
-    username: admin
-    password: admin
+    username: ${H2_DB_USER}
+    password: ${H2_DB_PASSWORD}
   jpa:
     show-sql: true
     properties:
